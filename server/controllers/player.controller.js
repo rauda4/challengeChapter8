@@ -38,7 +38,7 @@ class PlayerController {
     }
   }
 
-  static async getPlayers(req, res, next) {
+  static async  getPlayers(req, res, next) {
     try {
       let conditions = [];
       const { username, email, experience, lvl } = req.query;

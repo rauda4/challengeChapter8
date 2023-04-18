@@ -5,6 +5,12 @@ apiRouter.get("/", (req, res) => {
   res.send("test");
 });
 
+apiRouter.get("/login", (req, res) => {
+  res.send("ini login");
+});
+
+  
+
 apiRouter.use("/v1", v1);
 
 module.exports = apiRouter;
