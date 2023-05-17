@@ -32,11 +32,11 @@ export default function Edit(){
         }
 
         useEffect(() =>{
-            setUsername(localStorage.getItem('username'))
-            setEmail(localStorage.getItem('email'))
-            setPassword(localStorage.getItem('password'))
-            setExperience(localStorage.getItem('experience'))
-            setId(localStorage.getItem('id'))
+            setUsername(localStorage.getItem('Username'))
+            setEmail(localStorage.getItem('Email'))
+            setPassword(localStorage.getItem('Password'))
+            setExperience(localStorage.getItem('Experience'))
+            setId(localStorage.getItem('Id'))
         },[])
 
     

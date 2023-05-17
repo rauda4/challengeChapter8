@@ -14,6 +14,8 @@ app.use(cors())
 app.use(express.urlencoded({extended: true}))
 app.use(express.json()) 
 app.use(errorHandler)
+
+// swagger
 app.use("/docs", swaggerUI.serve, swaggerUI.setup(swaggerJson));
 
 /**

@@ -1,8 +1,8 @@
 const Player = [
     {
         id:"1",
-        username:"adi",
-        email:"adibaskoro@gmail.com",
+        username:"auda gelap",
+        email:"audagelap2@gmail.com",
         password:"123",
         experience:"2000"
     },{
